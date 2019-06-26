@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
+
 @Configuration
 @ComponentScan(basePackages = {"org.zerock.sample"})
 public class RootConfig {
