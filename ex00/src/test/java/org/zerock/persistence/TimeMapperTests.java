@@ -19,6 +19,7 @@ public class TimeMapperTests {
 	@Setter(onMethod_ = { @Autowierd })
 	private TimeMapper timeMapper;
 	
+	
 	@Test
 	public void timeGetTime() {
 		log.info(timeMapper.getClass().getName());
